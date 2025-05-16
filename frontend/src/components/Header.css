@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: white; 
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo {
+    padding: 8px 16px;
+    width: 80px;
+    height: auto;
+}
+
+.dashboard {
+    cursor: pointer;
+    padding: 8px 20px;
+    color: rgb(37, 37, 37);
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.dashboard:hover {
+    color: lightgrey
+}
+
+.login-button {
+    cursor: pointer;
+    padding: 8px 20px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+.login-button:hover {
+    color:lightgrey
+}
+.sign-up-button {
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 8px 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.sign-up-button:hover {
+    color: lightgrey;
+    background-color: darkgrey;;
+}
